@@ -28,9 +28,8 @@
     justify-content: center;
     background: linear-gradient(#0d1016 50%, #181921 50%);
     letter-spacing: -0.02rem;
-    overflow: hidden;
     height: 100vh;
-  
+    overflow: hidden;
   }
   
   .container {
@@ -119,10 +118,14 @@
 
 
 .pisi{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .icon-img{
   border-radius: 50%;
+}
+
+.h31{
+  display: flex;
+  
 }
