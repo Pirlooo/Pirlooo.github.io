@@ -1,0 +1,1 @@
+konsepnya suka suka
