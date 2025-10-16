@@ -1,131 +1,133 @@
-*::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  *{
-    text-decoration: none;
-  }
-  
-  html {
-    font-family: 'Segoe UI', Ubuntu, 'Open Sans';
-    letter-spacing: -0.02rem;
-    width: auto;
-    height: auto;
-    min-height: 100vh;
-  }
-  
-  #img-1 {
-    width: 6.25em;
-    height: 6.25em;
-    border-radius: 50%;
-  }
-  
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(#0d1016 50%, #181921 50%);
-    letter-spacing: -0.02rem;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 80vw;
-    max-width: 37.5em;
-    margin: auto;
-    padding: 3em 1.8em;
-    border-radius: 0.6em;
-    box-shadow: 1.2em 2em 3em rgba(255, 255, 255, 0.2);
-    background-color: #040427;
-    color: #7a85aa;
-  
-  }
-  
-  
-  .c-main {
-    margin: auto;
-  }
-  
-  
-  .container-p {
-    text-align: center;
-  }
-  
-  .c-gtw {
-    text-align: left;
-    font-weight: bold;
-    font-size: 23px;
-    line-height: 0.0025em;
-    display: flex;
-  
-  }
-  
-  .container-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-  }
-  
-  .container-profile {
-    display: flex;
-    align-items: center;
-  
-  }
-  
-  .container-name {
-    line-height: 0.015;
-    margin-inline-start: 1rem;
-  
-  }
-  
-  .container-12d {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  h2 {
-    margin: 0;
-    font-weight: bold;
-    font-size: 1.5em;
-  
-  }
-  
-  hr {
-    margin: 1% 0;
-    border-color: rgb(184, 184, 184);
-  }
-  
-  
-  .footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    opacity: 50%;
-  }
-  
-  
-  ::-webkit-scrollbar {
-    display: none;
-  }
-
-
-.pisi{
-  font-size: 18px;
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.icon-img{
+* {
+  text-decoration: none;
+}
+
+html {
+  font-family: 'Segoe UI', Ubuntu, 'Open Sans';
+  letter-spacing: -0.02rem;
+  width: auto;
+  height: auto;
+  min-height: 100vh;
+}
+
+#img-1 {
+  width: 6.25em;
+  height: 6.25em;
   border-radius: 50%;
 }
 
-.h31{
+body {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#080818 50%, #0e0f1a 50%);
+  letter-spacing: -0.02rem;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  max-width: 37.5em;
+  margin: auto;
+  padding: 3em 1.8em;
+  border-radius: 0.6em;
+  box-shadow: 0.5em 0.5em 2em 0.5em rgba(255, 255, 255, 0.030);
+  background-color: #030818;
+  color: #656483;
+
+}
+
+
+.c-main {
+  margin: auto;
+}
+
+
+.container-p {
+  text-align: center;
+}
+
+.c-gtw {
+  text-align: left;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 0.0025em;
+  display: flex;
+
+}
+
+.container-media {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  gap: 2%;
+}
+
+.container-profile {
+  display: flex;
+  align-items: center;
+
+}
+
+.container-name {
+  line-height: 0.015;
+  margin-inline-start: 1rem;
+
+}
+
+.container-12d {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+
+hr {
+  margin: 1% 0;
+  border-color: rgb(184, 184, 184);
+}
+
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 50%;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.pisi {
+  font-size: 18px;
   
+}
+
+.icon-img {
+  border-radius: 50%;
+}
+
+.h31 {
+  display: flex;
+
 }
