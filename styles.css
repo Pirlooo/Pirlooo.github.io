@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Ubuntu, 'Open Sans';
+
+}
+
+body{
+    background-color: rgb(4, 4, 4);
+    color: white;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 10, 10);
+    max-width: 80%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    padding: 1em;
+}
+
+video {
+    border-radius: 0.5em;
+    max-width: 80%;
+}
+.cVideo{
+    text-align: center;
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 0.5em;
+    word-wrap: break-word;
+    max-width: 80%;
+}
+
+/* p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: rgb(180, 180, 180)
+} */
