@@ -6,22 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>arsip</title>
     <link rel="stylesheet" href="styles.css">
-            <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const container = document.querySelector(".container-center");
-            const videos = container.querySelectorAll("video");
-
-            videos.forEach(video => {
-                video.addEventListener("play", function () {
-                    videos.forEach(v => {
-                        if (v !== video) {
-                            v.pause();
-                        }
-                    });
-                });
-            });
-        });
-    </script>
+    <script src="js.js"></script>
 </head>
 
 <body>
@@ -139,5 +124,6 @@
 </body>
 
 </html>
+
 
 
